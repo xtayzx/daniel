@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+    font-family: atten-new, "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --background: #f7f4e6;
+    /* --lightPurple: #9e8eb3; */
+    --link: #002c8a;
+}
+
+body {
+    background-color: var(--background);
+    /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+header {
+    /* background: turquoise; */
+    padding: 3.5rem 0 0.5rem 0;
+}
+
+.header-contents {
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* MENU */
+
+button {
+    width: 1.8rem;
+    height: 1.8rem;
+    background-color: rgb(0, 0, 0, 0);
+    border: none;
+    float: right;
+    margin-left: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.tlc-logo:hover,
+.tlc-logo:focus,
+button:focus,
+button:hover {
+    /* filter: invert(37%) sepia(10%) saturate(1240%) hue-rotate(224deg) brightness(97%) contrast(91%); */
+    filter: invert(74%) sepia(81%) saturate(900%) hue-rotate(200deg) brightness(160%) contrast(70%);
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover,
+button:focus {
+    cursor: pointer;
+}
+
+button:target {
+    transition: all 0.3s ease-in-out;
+}
+
+button:target {
+    filter: invert(0) sepia(0) saturate(0) hue-rotate(0) brightness(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.main-menu {
+    display: block;
+    /* background-color: #95b5fa; */
+    text-align: center;
+}
+
+.menu-item {
+    margin: 2rem 1rem;
+    text-align: center;
+    background-color: none;
+    transition: all 0.75s ease-in-out;
+    display: inline-flex;
+    opacity: 100%;
+}
+
+.menu-item a {
+    color: var(--link);
+    font-family: mrs-eaves;
+    font-size: 1.2rem;
+    font-variant-caps: all-small-caps;
+}
+
+.menu-item a:hover,
+.menu-item a:focus {
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    transition: all 0.6s ease-in-out
+}
+
+.main-photo {
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
+    height: auto;
+}
+
+.grid-socials {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.grid-socials a {
+    margin: 1rem 1.2rem;
+    transition: all 0.6s ease-in-out;
+    display: inline-block;
+}
+
+
+.grid-socials a:hover,
+.grid-socials a:focus {
+    /* filter: invert(38%) sepia(34%) saturate(427%) hue-rotate(224deg) brightness(87%) contrast(84%); */
+    filter: invert(74%) sepia(81%) saturate(1200%) hue-rotate(180deg) brightness(90%) contrast(90%);
+    transition: all 0.6s ease-in-out;
+}
+
+
+/* FOOTER */
+
+footer {
+    /* background-color: red; */
+    display: block;
+    /* position: static; */
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.no-display {
+    display: none;
+}
+
+
+/* FONTS */
+
+h1 {
+    font-family: mrs-eaves, sans-serif;
+    font-size: 2.4rem;
+    font-weight: 400;
+  }
+  
+h2 {
+font-family: mrs-eaves, sans-serif;
+font-size: 1.8rem;
+font-weight: 400;
+}
+
+h3 {
+font-family: atten-new, sans-serif;
+font-size: 1.4rem;
+font-weight: 600;
+}
+
+p {
+    color: black;
+    font-weight: 300;
+    font-family: atten-new, sans-serif;
+    line-height: 1.5;
+}
+
+p a {
+    color: var(--link);
+    font-family: atten-new, sans-serif;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+p a:hover,
+p a:focus {
+    text-decoration: underline;
+    text-underline-offset: 0.25rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.italic {
+    font-style: italic;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+
+/* SMALL DEVICES STYLESHEET (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 23rem) and (max-width: 48rem) {
+    .main-photo {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 48rem) {
+    .main-photo {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-height: 31rem) and (min-width: 40rem) {
+    .main-photo {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-height: 31rem) {
+    header {
+        padding-top: 1rem;
+    }
+}
+/* 
+@media only screen and (min-height: 47.5rem) {
+    header {
+        padding-top: 16vh;
+    }
+
+    .menu-item a {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (min-height: 62.5rem) {
+    header {
+        padding-top: 18vh;
+    }
+
+    .menu-item a {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (min-height: 80rem) {
+    header {
+        padding-top: 22vh;
+    }
+
+    .menu-item a {
+        font-size: 1.8rem;
+    }
+} */
