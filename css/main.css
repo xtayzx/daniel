@@ -9,7 +9,7 @@
 :root {
     --background: #f7f4e6;
     /* --lightPurple: #9e8eb3; */
-    --link: #002c8a;
+    --link: #872F00;
 }
 
 body {
@@ -120,8 +120,9 @@ button:target {
 .grid-socials a:hover,
 .grid-socials a:focus {
     /* filter: invert(38%) sepia(34%) saturate(427%) hue-rotate(224deg) brightness(87%) contrast(84%); */
-    filter: invert(74%) sepia(81%) saturate(1200%) hue-rotate(180deg) brightness(90%) contrast(90%);
-    transition: all 0.6s ease-in-out;
+    /* filter: invert(74%) sepia(81%) saturate(1200%) hue-rotate(180deg) brightness(90%) contrast(90%); */
+    filter: invert(19%) sepia(97%) saturate(1189%) hue-rotate(360deg) brightness(99%) contrast(106%);
+    transition: all 0.4s ease-in-out;
 }
 
 
