@@ -22,7 +22,7 @@ body {
 
 header {
     /* background: turquoise; */
-    padding: 3.5rem 0 0.5rem 0;
+    padding: 2vh 0 0.5rem 0;
 }
 
 .header-contents {
@@ -134,7 +134,8 @@ footer {
     align-items: center;
     text-align: center;
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2vh;
+    margin: 0.67em;
 }
 
 .no-display {
@@ -145,7 +146,7 @@ footer {
 /* FONTS */
 
 h1 {
-    font-family: mrs-eaves, sans-serif;
+    font-family: 'rubik mono one', sans-serif;
     font-size: 2.4rem;
     font-weight: 400;
   }
@@ -217,6 +218,12 @@ img {
 @media only screen and (max-height: 31rem) {
     header {
         padding-top: 1rem;
+    }
+}
+
+@media only screen and (min-width: 62.5rem) {
+    .main-photo {
+        width: 25%;
     }
 }
 /* 
