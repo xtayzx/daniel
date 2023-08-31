@@ -22,7 +22,7 @@ body {
 
 header {
     /* background: turquoise; */
-    padding: 2vh 0 0.5rem 0;
+    padding: 2vh 0 0rem 0;
 }
 
 .header-contents {
@@ -71,6 +71,7 @@ button:target {
     display: block;
     /* background-color: #95b5fa; */
     text-align: center;
+    padding-bottom: 1rem;
 }
 
 .menu-item {
@@ -107,7 +108,7 @@ button:target {
     align-items: center;
     text-align: center;
     justify-content: center;
-    margin-bottom: 1rem;
+    margin: 2rem 0 1rem 0;
 }
 
 .grid-socials a {
