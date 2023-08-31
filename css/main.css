@@ -25,6 +25,10 @@ header {
     padding: 2vh 0 0rem 0;
 }
 
+.no-display {
+    display: none;
+}
+
 .header-contents {
     display: block;
     text-align: center;
@@ -85,8 +89,9 @@ button:target {
 
 .menu-item a {
     color: var(--link);
-    font-family: mrs-eaves;
-    font-size: 1.2rem;
+    font-family: 'archivo', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
     font-variant-caps: all-small-caps;
 }
 
@@ -126,6 +131,16 @@ button:target {
     transition: all 0.4s ease-in-out;
 }
 
+.content-container {
+    margin: 1rem 4rem;
+    text-align: center;
+    align-items: center;
+}
+
+.music {
+    margin: 1rem 2rem;
+}
+
 
 /* FOOTER */
 
@@ -138,43 +153,68 @@ footer {
     padding-top: 1rem;
     padding-bottom: 2vh;
     margin: 0.67em;
+    text-transform: uppercase;
+    font-size: 0.8rem;
 }
 
 .no-display {
     display: none;
 }
 
+.upper-space {
+    padding-top: 1.2rem;
+}
+
+.under-space {
+    padding-bottom: 1.2rem;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+hr {
+    width: 100%;
+    text-align: left;
+    margin-left: 0;
+}
+
 
 /* FONTS */
 
-h1 {
+h1, p.title {
     font-family: 'rubik mono one', sans-serif;
     font-size: 2.4rem;
     font-weight: 400;
+    margin: 0.67em 0;
   }
   
 h2 {
-font-family: mrs-eaves, sans-serif;
-font-size: 1.8rem;
-font-weight: 400;
+    font-family: 'archivo', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin: 0.67em 0;
+    text-transform: uppercase;
 }
 
-h3 {
-font-family: atten-new, sans-serif;
-font-size: 1.4rem;
-font-weight: 600;
+h3, p.show {
+    font-family: 'archivo', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin: 1.75em 0 0.67em 0;
+    text-transform: uppercase;
 }
 
 p {
     color: black;
     font-weight: 300;
-    font-family: atten-new, sans-serif;
+    font-family: 'dm sans', sans-serif;
     line-height: 1.5;
 }
 
 p a {
     color: var(--link);
-    font-family: atten-new, sans-serif;
+    font-family: 'dm sans', sans-serif;
     font-weight: 500;
     transition: all 0.3s ease-in-out;
 }
@@ -188,6 +228,14 @@ p a:focus {
 
 .italic {
     font-style: italic;
+}
+
+.show-title a {
+    font-weight: 800;
+}
+
+p.show-margin.show {
+    margin: 0.67em 0;
 }
 
 img {
@@ -226,6 +274,10 @@ img {
 @media only screen and (min-width: 62.5rem) {
     .main-photo {
         width: 25%;
+    }
+
+    .content-container {
+        margin: 1rem 18rem;
     }
 }
 /* 
