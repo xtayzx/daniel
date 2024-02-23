@@ -9,9 +9,11 @@
     <meta name="description" content="Daniel Lew is a singer-songwriter based in Vancouver, Canada." />
 
     <!-- CSS -->
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+
+    
 
     <!-- FAVICON -->
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
@@ -44,12 +46,29 @@
         <section>
             <div class="header-contents">
                 <h1 class="no-display">Daniel Lew</h1>
-                <p class="title">Daniel Lew</p>
+                <!-- <p><a class="title" href="https://www.danlew.ca">Daniel Lew</a></p> -->
             </div>
         </section>
     </header>
 
-    <nav class="main-menu">
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <!-- <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg> -->
+            <span class="title">Daniel Lew</span>
+          </a>
+    
+          <ul class="nav nav-pills">
+            <!-- <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li> -->
+            <li class="nav-item"><a href="music" class="nav-link">Music</a></li>
+            <li class="nav-item"><a href="shows" class="nav-link">Shows</a></li>
+            <li class="nav-item"><a href="merch" class="nav-link">Merch</a></li>
+            <li class="nav-item"><a href="contact" class="nav-link">Contact</a></li>
+          </ul>
+        </header>
+      </div>
+
+    <!-- <nav class="main-menu">
         <div class="menu-item">
             <a href="music">Music</a>
         </div>
@@ -57,27 +76,108 @@
             <a href="shows">Shows</a>
         </div>
         <div class="menu-item">
+            <a href="merch">Merch</a>
+        </div>
+        <div class="menu-item">
             <a href="contact">Contact</a>
         </div>
-    </nav>
+    </nav> -->
 
     <section>
-        <div class="main-photo">
-            <img src="img/daniel.jpg" alt="Portrait of Daniel Lew.">
+        <div class="main-photo lower-space">
+            <img src="img/daniel_beach.jpg" alt="Portrait of Daniel Lew.">
         </div>
     </section>
 
-    <div class="content-container">
-        <!-- <h2>About</h2> -->
+    <section>
+        <div class="content-container bio upper-space">
+            <!-- <h2>About</h2> -->
 
-        <p class="upper-space under-space">Daniel Lew is a musician with a mission to uplift the world. 10 years ago, he suddenly went deaf in his left ear. This trauma has led him to devote his life to music. His songwriting is introspective in nature, drawing on his understanding of the universe and the finite human experience. His vision is to help empower his listeners to be their most authentic self.</p>
+            <p class="upper-space under-space">Daniel Lew is singer-songwriter with a mission to uplift the world. 10 years ago, he spontaneously went deaf in his left ear and developed tinnitus. This experience would lead him to devote his life to music. His voice is a blend of Bob Dylan, Jack Johnson, and Chris Cornell. Some have called his songs a self-help book due to their introspective nature. He has independently released 3 albums, amassed over 400 performances, and has been featured by CBC Radio One, Jade Music Festival, Pancouver Magazine, and Daily Hive Vancouver.</p>
 
-        <p class="under-space">He has written, produced and engineered 3 albums, and has over 250 performances under his belt. His latest single, “Alive (The Ocean Song)” was featured by Daily Hive Vancouver and has amassed 181,000 views on Instagram. Produced by Braeden “Pockets” Rangno (Kimmortal), and featuring synth bass from Grammy Award winning producer/artist David Pimentel (Jon Batiste, Anderson .Paak, Mac Miller). Against all odds, he recently crossed paths with the music phenom Jacob Collier who praised his performance.</p>
+            <p class="under-space">Recently, Daniel received praise from Jacob Collier and Ed Sheeran while he was busking. Ed invited him backstage to his show where he had the opportunity to share career insights and play a song.</p>
 
-        <p class="under-space">In Fall 2023, Daniel will be a featured performer and panel speaker at Jade Music Festival, and TAIWANfest.</p>
+            <p class="under-space">Daniel is an emerging artist in Creative BC's Career Development Program, and is recording a new album “Destiny” that is on pace to be released May 2024. He will be supporting the release with a Canadian tour. He has a vision of increasing the representation of Asian-Canadians in the music industry and is leading a team that reflects this.</p>
 
-        <p class="under-space">Daniel is currently writing songs for a new EP in 2024. He has a vision of increasing the representation of Asians in the music industry, and is about to lead a recording project composed of a team that is 80% Asian-Canadian. Overall, Daniel is embracing the momentum of his journey and is showing no signs of slowing down.</p>
-    </div>
+            <p class="under-space">Daniel is embracing the momentum of his journey and is showing no signs of slowing down.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="content-container">
+            <h2 class="upper-space">Videos</h2>
+            <hr>
+            <h3>Trade It All Away (Official Music Video)</h3>
+            <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/AXaw1M6YgmI?si=uAm0NPAxFa3OLJky" allowfullscreen></iframe>
+            </div>
+
+            <h3 class="upper-space">Alive (The Ocean Song)</h3>
+            <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/6xsDvQD8ZU0?si=qqaPItq80fWCNWF4" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="content-container">
+            <h2 class="upper-space">Press</h2>
+            <hr>
+            <br>
+            <p class="press-text upper-space under-space"><a href="https://www.cbc.ca/listen/live-radio/1-91-the-early-edition/clip/16041905-daniel-lew-studio" target="_blank">CBC Radio One: The Early Edition. Interview with Gloria Macarenko</a></p>
+            <br>
+            <p class="press-text"><a href="https://pancouver.ca/jade-music-fest-presents-folk-rap-jazz-and-asian-hits-in-concert-celebrating-musicians-with-chinese-and-taiwanese-ancestry/" target="_blank">"Folk music writ large with electrifying vocals"</a></p>
+            <p class="italic under-space">- Charlie Smith, former editor of The Georgia Straight</p>
+            <br>
+            <p class="press-text"><a href="https://pancouver.ca/jade-music-fest-vancouver-singer-songwriter-daniel-lew-makes-memorable-and-uplifting-music-to-benefit-the-world/" target="_blank">"Jade Music Fest: Vancouver singer-songwriter Daniel Lew makes memorable and uplifting music to benefit the world"</a></p>
+            <p class="italic under-space">- Pancouver</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="content-container">
+            <h2 class="upper-space">Tour</h2>
+            <hr class="margin">
+            <a href="https://www.songkick.com/artists/10263827" class="songkick-widget" data-theme="dark" data-track-button="on" data-detect-style="off" data-background-color="rgb(0,0,0,1)" data-font-color="rgb(255,255,255,1)" data-locale="en" data-other-artists="on" data-share-button="on" data-country-filter="on" data-rsvp="on" data-request-show="on" data-past-events="off" data-past-events-offtour="off" data-remind-me="off">Daniel Lew</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="content-container">
+            <h2 class="upper-space">Photos</h2>
+            <hr class="margin">
+            <div class="photo-gallery column-3 row-1 margin">
+                <div class="photo-block">
+                    <img src="img/daniel_guitar.jpg" alt="Portrait of Daniel Lew.">
+                </div>
+                <div class="photo-block">
+                    <img src="img/daniel_coat.jpg" alt="Portrait of Daniel Lew.">
+                </div>
+                <div class="photo-block">
+                    <img src="img/daniel_surrender.jpg" alt="Portrait of Daniel Lew.">
+                </div>
+            </div>
+            <div class="photo-gallery column-2 row-1 margin">
+                <div class="photo-block">
+                    <img src="img/daniel.jpg" alt="Portrait of Daniel Lew.">
+                </div>
+                <div class="photo-block">
+                    <img src="img/daniel_beach.jpg" alt="Portrait of Daniel Lew.">
+                </div>
+            </div>      
+        </div>
+    </section>
+
+    <section>
+        <div class="content-container">
+            <h2 class="upper-space">Contact</h2>
+            <hr>
+            <br>
+            <p class="under-space">For questions, bookings and inquiries, contact Daniel at <a href="mailto:dlew@uwo.ca">dlew@uwo.ca</a></p>
+            <p class="upper-space under-space bold">Patreon: <a href="https://www.patreon.com/dlew" target="_blank">patreon.com/dlew</a></p>
+            <p class="under-space bold">Bandcamp: <a href="https://dlew.bandcamp.com" target="_blank">dlew.bandcamp.com</a></p>
+        </div>
+    </section>
 
     <section>
         <div class="grid-socials">
@@ -142,12 +242,13 @@
 
     <footer>
         <div>
-            <p>© 2023 Daniel Lew.</p>
+            <p>© 2024 Daniel Lew.</p>
             <p>All rights reserved.</p>
             <p>Created by <a href="https://www.taylen.ca" target="_blank">TLC</a>.</p>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src='https://widget-app.songkick.com/injector/10263827'></script>
     <!-- <script src="js/script.js"></script> -->
 </body>
 
