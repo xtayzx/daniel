@@ -9,6 +9,7 @@
 :root {
     --background: #f7f4e6;
     --link: #872F00;
+    --hover: #5e2100;
 }
 
 body {
@@ -47,8 +48,6 @@ button {
     transition: all 0.3s ease-in-out;
 }
 
-.tlc-logo:hover,
-.tlc-logo:focus,
 button:focus,
 button:hover {
     /* filter: invert(37%) sepia(10%) saturate(1240%) hue-rotate(224deg) brightness(97%) contrast(91%); */
@@ -71,7 +70,7 @@ button:target {
 }
 
 
-/* */
+/* BOOTSTRAP MODIFICATIONS */
 .main-menu {
     display: block;
     /* background-color: #95b5fa; */
@@ -194,7 +193,7 @@ hr {
 }
 
 
-/* FONTS */
+/* FONTS AND TEXT */
 
 h1, .title {
     font-family: 'rubik mono one', sans-serif;
@@ -210,15 +209,16 @@ h1, .title {
 }
   
   
-h2 {
+h2, h3 {
     font-family: 'archivo', sans-serif;
     font-size: 2.2rem;
     font-weight: 800;
-    margin: 0.67em 0;
+    margin: 1em 0 0.67em 0;
     text-transform: uppercase;
+    text-align: center;
 }
 
-h3, p.show {
+p.show, p.subheading {
     font-family: 'archivo', sans-serif;
     font-size: 1.8rem;
     font-weight: 300;
@@ -226,7 +226,7 @@ h3, p.show {
     text-transform: uppercase;
 }
 
-p {
+p, .subscribe label {
     color: black;
     font-weight: 300;
     font-family: 'dm sans', sans-serif;
@@ -249,6 +249,10 @@ p a:focus, .nav-link:focus, .nav-link:hover {
     transition: all 0.3s ease-in-out;
 }
 
+footer p {
+    margin-bottom: 0;
+}
+
 .italic {
     font-style: italic;
 }
@@ -269,7 +273,7 @@ p.show-margin.show {
     max-width: 740px;
 }
 
-/* PHOTO */
+/* PHOTO AND MEDIA */
 
 img {
     max-width: 100%;
@@ -277,7 +281,7 @@ img {
     width: 100%;
 }
 
-.photo-gallery {
+.photo-gallery, .music-gallery {
     display: grid;
     row-gap: 1rem;
     column-gap: 0.75rem;
@@ -349,10 +353,76 @@ section {
     margin-left: auto;
 }
 
-.content__fixedBadge {
+/* .left {
+    text-align: left;
+} */
+
+/* .content__fixedBadge {
     display: none;
+} */
+
+/* Creative BC */
+.creativeBC {
+    max-width: 320px;
+    height: auto;
 }
 
+
+/* .mc-field-group {
+    text-align: left;
+    margin-left: 20vw;
+    margin-right: 0;
+    margin-bottom: 1em;
+} */
+
+/*////Mailchimp/////*/ 
+
+#mc_embed_signup {
+    background-color: white;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.mc-field-group input[type=text]{
+    display: inline-block;
+    font-family: 'dm sans', sans-serif;
+}
+
+.mc-field-group input {
+    max-width: 450px;
+    width: 80vw;
+    padding: 12px 20px;
+    margin: 0.5em 0 1em 0;
+}
+
+label {
+    display:block;
+    clear:both;
+    font-family: 'dm sans', sans-serif;
+}
+
+/* .indicates-required {
+margin-bottom: 1em;
+font-family: 'dm sans', sans-serif;
+font-style: italic;
+} */
+
+/* Subscribe Button */
+#mc-embedded-subscribe {
+    margin-top: 1em;
+    font-weight: 300;
+    font-family: 'dm sans', sans-serif;
+    padding: 15px 32px;
+    background-color: var(--link);
+    color: white;
+    border: none;
+}
+
+#mc-embedded-subscribe:hover {
+    background-color: var(--hover);
+    transition: all 0.3s ease-in-out;
+}
+/*/////////*/
 /* SMALL DEVICES STYLESHEET (portrait tablets and large phones, 600px and up) */
 
 /* @media only screen and (min-width: 23rem) and (max-width: 48rem) {
@@ -377,6 +447,10 @@ section {
     header {
         padding-top: 1rem;
     }
+
+    /* .left {
+        text-align: left;
+    } */
 }
 
 @media only screen and (min-width: 62.5rem) {
@@ -400,6 +474,10 @@ section {
         margin-left: auto;
         margin-right: auto;
     }
+
+    /* .left {
+        text-align: left;
+    } */
 }
 /* 
 @media only screen and (min-height: 47.5rem) {
