@@ -14,14 +14,9 @@
 
 body {
     background-color: var(--background);
-    /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
 }
 
 header {
-    /* background: turquoise; */
     padding: 2vh 0 0rem 0;
 }
 
@@ -371,7 +366,6 @@ section {
     height: auto;
 }
 
-
 /* .mc-field-group {
     text-align: left;
     margin-left: 20vw;
@@ -451,10 +445,6 @@ font-style: italic;
     header {
         padding-top: 1rem;
     }
-
-    /* .left {
-        text-align: left;
-    } */
 }
 
 @media only screen and (min-width: 62.5rem) {
@@ -478,10 +468,6 @@ font-style: italic;
         margin-left: auto;
         margin-right: auto;
     }
-
-    /* .left {
-        text-align: left;
-    } */
 }
 /* 
 @media only screen and (min-height: 47.5rem) {
