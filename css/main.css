@@ -354,7 +354,7 @@ section {
 
 .album {
     background-color: rgb(19, 35, 103);
-    padding: 1em 0em 4em 0em;
+    padding: 1em 0em 3em 0em;
     margin-bottom: 2em;
     color: white;
     max-width: auto;
@@ -369,6 +369,25 @@ section {
 
 .album img {
     margin: 0 0 2em 0;
+}
+
+.options {
+    color: white;
+    padding: 3em 0 0 0;
+}
+
+.options a {
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    transition: all 0.6s ease-in-out
+}
+
+.options a:hover, .album a:focus{
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    transition: all 0.6s ease-in-out
 }
 
 
