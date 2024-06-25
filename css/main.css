@@ -131,7 +131,11 @@ button:target {
 
 .grid-socials a:hover,
 .grid-socials a:focus {
-    filter: invert(19%) sepia(97%) saturate(1189%) hue-rotate(360deg) brightness(99%) contrast(106%);
+    /* Surrender */
+    /* filter: invert(19%) sepia(97%) saturate(1189%) hue-rotate(360deg) brightness(99%) contrast(106%); */
+
+    /* Destiny */
+    filter: invert(23%) sepia(78%) saturate(6343%) hue-rotate(219deg) brightness(105%) contrast(102%);
     transition: all 0.4s ease-in-out;
 }
 
