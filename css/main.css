@@ -45,7 +45,6 @@ button {
 
 button:focus,
 button:hover {
-    /* filter: invert(37%) sepia(10%) saturate(1240%) hue-rotate(224deg) brightness(97%) contrast(91%); */
     filter: invert(74%) sepia(81%) saturate(900%) hue-rotate(200deg) brightness(160%) contrast(70%);
     transition: all 0.3s ease-in-out;
 }
@@ -68,7 +67,6 @@ button:target {
 /* BOOTSTRAP MODIFICATIONS */
 .main-menu {
     display: block;
-    /* background-color: #95b5fa; */
     text-align: center;
     padding-bottom: 1rem;
 }
@@ -103,7 +101,6 @@ button:target {
 .main-photo, .contact-photo {
     margin-left:auto;
     margin-right:auto;
-    /* width: 50%; */
     height: auto;
     justify-content: center;
     text-align: center;
@@ -129,8 +126,6 @@ button:target {
 
 .grid-socials a:hover,
 .grid-socials a:focus {
-    /* filter: invert(38%) sepia(34%) saturate(427%) hue-rotate(224deg) brightness(87%) contrast(84%); */
-    /* filter: invert(74%) sepia(81%) saturate(1200%) hue-rotate(180deg) brightness(90%) contrast(90%); */
     filter: invert(19%) sepia(97%) saturate(1189%) hue-rotate(360deg) brightness(99%) contrast(106%);
     transition: all 0.4s ease-in-out;
 }
@@ -352,13 +347,25 @@ section {
     margin-left: auto;
 }
 
-/* .left {
-    text-align: left;
-} */
+.album {
+    background-color: rgb(19, 35, 103);
+    padding: 1em 0em 4em 0em;
+    margin-bottom: 2em;
+    color: white;
+    max-width: auto;
+    height: 50%;
+    width: auto;
+}
 
-/* .content__fixedBadge {
-    display: none;
-} */
+.album p {
+   margin: 0 0 1em 0;
+    color: white;
+}
+
+.album img {
+    margin: 0 0 2em 0;
+}
+
 
 /* Creative BC */
 .creativeBC {
@@ -366,12 +373,6 @@ section {
     height: auto;
 }
 
-/* .mc-field-group {
-    text-align: left;
-    margin-left: 20vw;
-    margin-right: 0;
-    margin-bottom: 1em;
-} */
 
 /*////Mailchimp/////*/ 
 
@@ -399,12 +400,6 @@ label {
     font-family: 'dm sans', sans-serif;
 }
 
-/* .indicates-required {
-margin-bottom: 1em;
-font-family: 'dm sans', sans-serif;
-font-style: italic;
-} */
-
 /* Subscribe Button */
 #mc-embedded-subscribe {
     margin-top: 1em;
@@ -420,26 +415,20 @@ font-style: italic;
     background-color: var(--hover);
     transition: all 0.3s ease-in-out;
 }
+
 /*/////////*/
-/* SMALL DEVICES STYLESHEET (portrait tablets and large phones, 600px and up) */
 
-/* @media only screen and (min-width: 23rem) and (max-width: 48rem) {
-    .main-photo {
-        width: 50%;
+.me-md-auto {
+    margin-right: 0 !important;
+} 
+
+/* fix logo placement */
+@media (min-width: 1000px) {
+    .me-md-auto {
+        margin-right: auto !important;
     }
 }
-
-@media only screen and (min-width: 48rem) {
-    .main-photo {
-        width: 30%;
-    }
-}
-
-@media only screen and (max-height: 31rem) and (min-width: 40rem) {
-    .main-photo {
-        width: 30%;
-    }
-} */
+   
 
 @media only screen and (max-height: 31rem) {
     header {
@@ -448,10 +437,6 @@ font-style: italic;
 }
 
 @media only screen and (min-width: 62.5rem) {
-    /* .main-photo {
-        width: 25%;
-    } */
-
     .column-3 {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -468,34 +453,8 @@ font-style: italic;
         margin-left: auto;
         margin-right: auto;
     }
-}
-/* 
-@media only screen and (min-height: 47.5rem) {
-    header {
-        padding-top: 16vh;
-    }
 
-    .menu-item a {
-        font-size: 1.4rem;
+    .album {
+        padding: 1em 10em 4em 10em;
     }
 }
-
-@media only screen and (min-height: 62.5rem) {
-    header {
-        padding-top: 18vh;
-    }
-
-    .menu-item a {
-        font-size: 1.6rem;
-    }
-}
-
-@media only screen and (min-height: 80rem) {
-    header {
-        padding-top: 22vh;
-    }
-
-    .menu-item a {
-        font-size: 1.8rem;
-    }
-} */
