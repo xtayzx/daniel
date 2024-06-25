@@ -8,8 +8,13 @@
 
 :root {
     --background: #fafafa;
-    --link: #872F00;
-    --hover: #5e2100;
+    /* Surrender */
+    /* --link: #872F00;
+    --hover: #5e2100; */
+
+    /* Destiny */
+    --link: #3037ab;
+    --hover: #132367;
 }
 
 body {
