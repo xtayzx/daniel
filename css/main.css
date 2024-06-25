@@ -375,6 +375,10 @@ section {
     margin: 0 0 2em 0;
 }
 
+.album .subheading {
+    font-size: 1.4rem;
+}
+
 .options {
     color: white;
     padding: 3em 0 0 0;
