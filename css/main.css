@@ -448,8 +448,9 @@ label {
     transition: all 0.3s ease-in-out;
 }
 
+/* fixing the videos on the index */
 
-.videos {
+.video-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -459,12 +460,6 @@ label {
     min-width: 300px; /* Adjust this value based on your needs */
     margin: 10px;
 }
-iframe {
-    width: 100%;
-    height: 100%;
-    aspect-ratio: 16 / 9; /* Maintain 16:9 aspect ratio */
-}
-
 
 /*/////////*/
 
