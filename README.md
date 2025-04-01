@@ -1,2 +1,2 @@
-# daniel
-website
+# Daniel
+Website for Daniel
