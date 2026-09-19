@@ -15,6 +15,9 @@
     /* Destiny */
     --link: #3037ab;
     --hover: #132367;
+    --button: #F0F0F0;
+    --click: #dbdbdb;
+    --feature: #141414;
 }
 
 body {
@@ -366,6 +369,19 @@ section {
     width: auto;
 }
 
+.feature {
+    color: white;
+    background-color: var(--feature);
+}
+
+.artwork {
+    padding: 2rem;
+}
+
+.white {
+    color: white;
+}
+
 .album p {
    margin: 0 0 1em 0;
     color: white;
@@ -375,8 +391,8 @@ section {
     margin: 0 0 2em 0;
 }
 
-.album .subheading {
-    font-size: 1.4rem;
+.feature .subheading {
+    font-size: 1.2rem;
 }
 
 .options {
@@ -396,6 +412,30 @@ section {
     text-decoration: underline;
     text-underline-offset: 0.5rem;
     transition: all 0.6s ease-in-out
+}
+
+.click-button {
+    background-color: var(--button);
+    padding: 1.5rem 2rem;
+    float: none;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    width: 300px;
+    text-decoration: none;
+    margin: 1.5rem 1.2rem;
+    border-radius: 0.8rem;
+}
+
+.click-button:hover {
+    background-color: var(--click);
+}
+
+.button-text {
+    margin: 0;
+    font-family: 'archivo', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 
